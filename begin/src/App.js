@@ -1,11 +1,10 @@
-import './App.css';
-function App() {
+import React from 'react';
+import Header from './Header'; // Header 컴포넌트를 임포트
+
+const App = () => {
   return (
     <div>
-      
-      <main>
-        <h1>hi</h1>
-      </main>
+      <Header />
     </div>
   );
 }
