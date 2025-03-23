@@ -47,6 +47,18 @@ export default function LoginForm() {
     cursor: "pointer",
   };
 
+  const kakaoButtonStyle = {
+    width: "100%",
+    padding: "0.75rem",
+    backgroundColor: "#FEE500",
+    color: "#000000",
+    border: "none",
+    borderRadius: "0.5rem",
+    fontSize: "1rem",
+    cursor: "pointer",
+    marginTop: "0.5rem",
+};
+
   const linkStyle = {
     color: "#0070b6",
     textDecoration: "none",
@@ -102,6 +114,9 @@ export default function LoginForm() {
             회원가입
           </a>
         </p>
+        <button type="submit" style={kakaoButtonStyle}>
+          Kakao로 로그인
+        </button>
       </div>
       <Footer />
     </div>
