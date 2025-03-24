@@ -1,10 +1,10 @@
-import './App.css';
-function App() {
+import React from 'react';
+
+const App = () => {
   return (
     <div>
       
       <main>
-       input './login.js'
       </main>
     </div>
   );
